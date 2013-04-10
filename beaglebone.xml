@@ -94,7 +94,6 @@
 
   <!-- BeagleBone specific things -->
   <project path="device/ti/beaglebone" name="vendor-ti-beaglebone" remote="rowboat" revision="rowboat-ics"/>
-  <project path="external/negatus" name="Negatus" remote="mozilla" revision="151697c638a6781e83c76d4a01fb001aabde4e79"/>
   <project path="external/orangutan" name="orangutan" remote="b2g" revision="601280aed7d7f29f1a78496f6fa41bd79c16305c" upstream="v1-train"/>
 
 </manifest>
