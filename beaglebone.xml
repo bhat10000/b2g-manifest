@@ -8,10 +8,12 @@
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="rowboat" fetch="git://gitorious.org/rowboat/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
+  <remote name="bone-b2g" fetch="git://github.com/bhat10000"/>
+
   <default revision="refs/tags/android-4.0.4_r2.1" remote="caf" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="193e0e263fd16343188f43e6ce49e6e97b30af1b" upstream="v1-train">
+  <project path="build" name="platform_build" remote="bone-b2g" revision="f32be22e520a116e3d9d26f8ff029b133295935b" upstream="beaglebone">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce" upstream="v1-train"/>
